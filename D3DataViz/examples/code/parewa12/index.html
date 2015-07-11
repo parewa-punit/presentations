@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Enter</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  </head>
+  <body>
+
+    <svg id="container" width="250" height="250">
+    </svg>
+
+      <script>
+
+       var scale = d3.scale
+                  .linear()
+                  .domain([30, 214])
+                  .range([214, 30]);
+
+        var points =     
+            d3.select("#container").selectAll("circle") 
+              .data([43, 81, 30, 103, 214, 42]) 
+              .enter();
+
+        points.append("circle")
+              .attr("fill", "red")
+              .attr("cx", function(d, i){
+                return (i+1)*40;
+              })
+              .attr("cy", function(d) {
+                return scale(d);
+              })
+              .attr("r", "5");
+
+        points.append("text")
+              .attr("x" , function(d, i){
+                return (i+1)*40;
+              })
+              .attr("y", function(d, i){
+                return scale(d);
+              })
+              .text(function(d){
+                return d;
+              });
+      </script>
+  </body>
+</html>
+
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3 basic – DOM manipulation</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  </head>
+  <body>
+      <h3>First Paragraph</h3>
+      <h3>Second Paragraph</h3>
+      <h3>Third Paragraph</h3>
+      <h3>Fourth Paragraph</h3>
+      <h3>Fifth Paragraph</h3>
+
+      <script>
+          d3.select("body").style("background-color", "black"); 
+          d3.selectAll("h3").style("color", "white"); 
+      </script>
+  </body>
+</html>

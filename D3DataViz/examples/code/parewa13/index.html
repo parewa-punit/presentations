@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Enter</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+    <style>
+      .axis path,
+      .axis line {
+          fill: none;
+          stroke: black;
+          shape-rendering: crispEdges;
+      }
+      .axis text {
+          font-family: sans-serif;
+          font-size: 11px;
+      }
+      </style>
+  </head>
+  <body>
+
+    <svg id="container" width="250" height="250">
+    </svg>
+
+      <script>
+
+       var scale = d3.scale
+                  .linear()
+                  .domain([0, 250])
+                  .range([200, 0]);
+
+        var axis = d3.svg.axis()
+                     .ticks(4)
+                     .orient("left")
+                     .scale(scale);
+
+        var drawAxis = d3.select("#container")
+                         .append("g")
+                         .attr("class", "axis")
+                         .attr("transform", "translate(30,0)")
+                         .call(axis);
+
+        var points =     
+            d3.select("#container").selectAll("circle") 
+              .data([43, 81, 30, 103, 183, 42]) 
+              .enter();
+
+        points.append("circle")
+              .attr("fill", "red")
+              .attr("cx", function(d, i){
+                return (i+1)*40;
+              })
+              .attr("cy", function(d) {
+                return scale(d);
+              })
+              .attr("r", "5");
+
+        points.append("text")
+              .attr("x" , function(d, i){
+                return (i+1)*40;
+              })
+              .attr("y", function(d, i){
+                return scale(d);
+              })
+              .text(function(d){
+                return d;
+              });
+      </script>
+  </body>
+</html>
+
+

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "parewa01",
+    "number": 1,
+    "message": "SVG",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa01"
+  },
+  {
+    "name": "parewa02",
+    "number": 2,
+    "message": "Rectangles",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa02"
+  },
+   {
+    "name": "parewa03",
+    "number": 3,
+    "message": "DOM Manipulation using D3",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa03"
+  },
+   {
+    "name": "parewa04",
+    "number": 4,
+    "message": "Property as a function",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa04"
+  },
+   {
+    "name": "parewa05",
+    "number": 5,
+    "message": "Binding data",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa05"
+  },
+   {
+    "name": "parewa06",
+    "number": 6,
+    "message": "Use both index and data",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa06"
+  },
+   {
+    "name": "parewa07",
+    "number": 7,
+    "message": "Create new elements",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa07"
+  },
+  {
+    "name": "parewa08",
+    "number": 8,
+    "message": "Enter",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa08"
+  },
+   {
+    "name": "parewa09",
+    "number": 9,
+    "message": "Exit",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa09"
+  },
+   {
+    "name": "parewa10",
+    "number": 10,
+    "message": "Simple bar chart",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa10"
+  },
+   {
+    "name": "parewa11",
+    "number": 11,
+    "message": "Adding labels",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa11"
+  },
+    {
+    "name": "parewa12",
+    "number": 12,
+    "message": "Using Scales in D3",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa12"
+  },
+    {
+    "name": "parewa13",
+    "number": 13,
+    "message": "Create axes",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa13"
+  },
+  {
+    "name": "parewa14",
+    "number": 14,
+    "message": "Animating transitions",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa14"
+  },
+  {
+    "name": "parewa15",
+    "number": 15,
+    "message": "Make your charts interactive",
+    "files": [
+      "index.html"
+    ],
+    "url": "http://curran.github.io/screencasts/introToD3/examples/viewer/#/1",
+    "runUrl": "localhost/D3DataViz/examples/code/parewa15"
+  }
+]
