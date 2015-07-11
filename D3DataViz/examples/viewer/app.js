@@ -192,16 +192,16 @@ app.directive('file', function(){
   };
 });
 
-// Display video from the camera on the video element.
-// Example code from http://www.html5rocks.com/en/tutorials/getusermedia/intro/
-navigator.getUserMedia  = navigator.getUserMedia ||
-                          navigator.webkitGetUserMedia ||
-                          navigator.mozGetUserMedia ||
-                          navigator.msGetUserMedia;
+// // Display video from the camera on the video element.
+// // Example code from http://www.html5rocks.com/en/tutorials/getusermedia/intro/
+// navigator.getUserMedia  = navigator.getUserMedia ||
+//                           navigator.webkitGetUserMedia ||
+//                           navigator.mozGetUserMedia ||
+//                           navigator.msGetUserMedia;
 
-navigator.getUserMedia({ video: true }, function (localMediaStream) {
-  var video = document.querySelector('video');
-  video.src = window.URL.createObjectURL(localMediaStream);
-}, function (e) {
-  console.log("Error " + e);
-});
+// navigator.getUserMedia({ video: true }, function (localMediaStream) {
+//   var video = document.querySelector('video');
+//   video.src = window.URL.createObjectURL(localMediaStream);
+// }, function (e) {
+//   console.log("Error " + e);
+// });
